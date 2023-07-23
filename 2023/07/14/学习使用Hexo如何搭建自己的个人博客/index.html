@@ -14,7 +14,7 @@
 <meta property="og:description" content="介绍 该笔记记载我使用Hexo在Github上搭建博客的过程   预备知识  明白Git 命令 了解Node.js    环境准备  Git Node.js    命令 初始化 123hexo init blogcd blognpm install  发布文章 1hexo new 文章名  将文章变为静态资源，用于部署网站 1hexo generate  启动服务器 1hexo server  将">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-07-14T15:02:21.000Z">
-<meta property="article:modified_time" content="2023-07-14T15:03:48.611Z">
+<meta property="article:modified_time" content="2023-07-14T15:06:04.523Z">
 <meta property="article:author" content="hrc">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -149,7 +149,7 @@
 <hr>
 <h4 id="需要修改的网站配置"><a href="#需要修改的网站配置" class="headerlink" title="需要修改的网站配置"></a>需要修改的网站配置</h4><blockquote>
 <p>修改__config.yml_文件  <strong>注意点    : 后记得空格</strong></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#Deployment</span><br><span class="line">deploy:</span><br><span class="line"> type: git</span><br><span class="line"> repo: https:<span class="comment">//github.com/仓库地址</span></span><br><span class="line">	branch: 仓库分支名</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#Deployment</span><br><span class="line">deploy:</span><br><span class="line"> type: git</span><br><span class="line"> repo: 仓库地址</span><br><span class="line">	branch: 仓库分支名</span><br></pre></td></tr></table></figure>
 </blockquote>
 <hr>
 <h4 id="建议修改的配置"><a href="#建议修改的配置" class="headerlink" title="建议修改的配置"></a>建议修改的配置</h4><blockquote>
@@ -175,6 +175,15 @@
     
 <nav id="article-nav">
   
+    <a href="/hrc-code.github.io/2023/07/23/%E9%A2%93%E5%BA%9F%E7%9A%84%E4%B8%80%E5%91%A8/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          颓废的一周
+        
+      </div>
+    </a>
+  
   
     <a href="/hrc-code.github.io/2023/07/14/test/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
@@ -198,7 +207,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/hrc-code.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hrc-code.github.io/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/hrc-code.github.io/tags/%E5%91%A8%E6%8A%A5/" rel="tag">周报</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hrc-code.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hrc-code.github.io/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a></li></ul>
     </div>
   </div>
 
@@ -208,7 +217,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/hrc-code.github.io/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">学习</a> <a href="/hrc-code.github.io/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 10px;">测试</a>
+      <a href="/hrc-code.github.io/tags/%E5%91%A8%E6%8A%A5/" style="font-size: 10px;">周报</a> <a href="/hrc-code.github.io/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">学习</a> <a href="/hrc-code.github.io/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 10px;">测试</a>
     </div>
   </div>
 
@@ -228,6 +237,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/hrc-code.github.io/2023/07/23/%E9%A2%93%E5%BA%9F%E7%9A%84%E4%B8%80%E5%91%A8/">颓废的一周</a>
+          </li>
         
           <li>
             <a href="/hrc-code.github.io/2023/07/14/%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8Hexo%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">学习使用Hexo如何搭建自己的个人博客</a>
